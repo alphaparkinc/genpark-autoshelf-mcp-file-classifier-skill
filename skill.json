@@ -1,0 +1,27 @@
+{
+  "name": "genpark-autoshelf-mcp-file-classifier-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - AutoShelf document organizer using MCP tools.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "mcp",
+    "file-system",
+    "autoshelf"
+  ],
+  "inputs": {
+    "file_name": {
+      "type": "string"
+    },
+    "file_content_preview": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "suggested_directory": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
